@@ -5,74 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Better Furniture</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
     <!-- MAIN SECTION -->
     <header class="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="header__top">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <div class="header__top-item">
+                <a class="header__logo" href="#">
                     <img src="images/logo.png" alt="Image">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Contact</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <button class="btn btn-outline-success" type="submit">Sign In</button>
-                    </form>
-                </div>
+                <ul class="menu">
+                    <li class="menu__list">
+                        <a href="#" class="menu__list-link">About</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#" class="menu__list-link">Blog</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#" class="menu__list-link">Contact</a>
+                    </li>
+                </ul>
             </div>
+
+            <div class="header__top-item">
+                <a href="#" class="header__top-btn">Sign In</a>
+            </div>
+        </div>
+
         </nav>
 
         <div class="header__body">
-
+            <span>Explore any kind of furnitures</span>
+            <h1 class="header__title">Better Furniture
+                Better Living</h1>
+            <button>Check our projects</button>
         </div>
+
     </header>
     <!-- /MAIN SECTION -->
 
     <!-- SERVICES SECTION -->
-    <div class="services">
-        <div class="container">
-            <h2>What we provide</h2>
-            <div class="row">
-                <div class="col-sm-12 col-md-4">
-                    <img src="images/services-1.svg" alt="Image">
-                    <h3>10 years of experience in furniture business</h3>
-                    <p>We're already established since 2012, and in 10 years we have lots of positive reviews and achievements</p>
-                    <button>See more</button>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <img src="images/services-2.svg" alt="Image">
-                    <h3>Afforable price with world class quality</h3>
-                    <p>Our craftsmen have lots of experience dealing with crafting furnitures and some of them have world class quality</p>
-                    <button>See more</button>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <img src="images/services-3.svg" alt="Image">
-                    <h3>Bring your ideas into a living product</h3>
-                    <p>Besides you can buy the existing product, you can also consultate with us also to make your dream furniture</p>
-                    <button>See more</button>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- /SERVICES SECTION -->
 
     <!-- PRODUCT SECTION -->
@@ -84,28 +61,7 @@
     <!-- /PRODUCT SECTION -->
 
     <!-- PROJECT SECTION -->
-    <div class="project">
-        <div class="container">
-            <h2>Our lates projects</h2>
-            <div class="row">
-                <div class="col">
-                    <img src="" alt="Image">
-                    <h3>Kitchen</h3>
-                    <p>Architech & Interior Design - 2023</p>
-                </div>
-                <div class="col">
-                    <img src="" alt="Image">
-                    <h3>livingroom</h3>
-                    <p>Architech & Interior Design - 2023</p>
-                </div>
-                <div class="col">
-                    <img src="" alt="Image">
-                    <h3>bedroom</h3>
-                    <p>Architech & Interior Design - 2023</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- /PROJECT SECTION -->
 
     <!--NEW PRODUCT SECTION -->

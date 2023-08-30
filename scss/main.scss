@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+$top-color: #F17252;
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 1274px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+// MAIN SECTION
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+
+    &-item{
+        display: flex;
+    }
+    li{
+        display: inline-block;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        color: var(--neutral-60, #757B8A);
+        margin-right: 32px;
+        &:hover{
+            font-weight: 700;
+            color: var(--neutral-100, #101010);
+        }
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
+.header__body{
+    background-image: url(../images/mani__bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+// /MAIN SECTION
