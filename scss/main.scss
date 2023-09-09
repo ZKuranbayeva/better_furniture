@@ -62,16 +62,16 @@ h2 {
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 150%;
-            }
 
-            li:hover {
-                font-weight: 700;
-                color: #101010;
-                transform: all .3s;
-            }
+                &:hover {
+                    font-weight: 700;
+                    color: #101010;
+                    transform: all .3s;
+                }
 
-            li:last-child {
-                margin-right: 0;
+                &:last-child {
+                    margin-right: 0;
+                }
             }
         }
 
@@ -205,3 +205,121 @@ h2 {
 }
 
 //  /SERVICES SECTION
+
+// PRODUCT SECTION
+.product {
+    padding-top: 160px;
+    padding-bottom: 114px;
+
+    h2 {
+        margin-bottom: 72px;
+    }
+
+    &__items {
+        font-family: Raleway;
+        display: flex;
+        position: relative;
+    }
+
+    &__item {
+        margin-right: 24px;
+        color: $top-color;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0.18px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        p {
+            color: #0F3141;
+            opacity: 0.5;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.14px;
+            text-transform: capitalize;
+            margin-bottom: 8px;
+        }
+
+        h6 {
+            color: #0F3141;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+            margin-bottom: 8px;
+        }
+
+        span {
+            display: block;
+            color: #0F3141;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.12px;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+//  /PRODUCT SECTION
+
+// PROJECT SECTION
+.project {
+    background: #0F3141;
+    color: #FFF;
+    padding-top: 129px;
+    padding-bottom: 147px;
+
+    h2 {
+        margin-bottom: 100px;
+    }
+
+    &__slider {
+        display: flex;
+        position: relative;
+
+        &-item {
+            margin-right: 40px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            img {
+                width: 400px;
+                height: 500px;
+                border-radius: 30px;
+            }
+
+            h5 {
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+                margin-bottom: 16px;
+            }
+
+            p {
+                color: #B6B9BF;
+                font-family: Raleway;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+    }
+}
+//  /PROJECT SECTION
+
+// NEW PRODUCT SECTION 
+.newproduct{
+    padding-top: 141px;
+    padding-bottom: 184px;
+    background-image: url(../images/product__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+//  /NEW PRODUCT SECTION 
