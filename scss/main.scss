@@ -460,3 +460,86 @@ h2 {
 }
 
 //  /TESTIMONIALS SECTION
+
+// CONTACT SECTION 
+.contact {
+    padding-top: 142px;
+    padding-bottom: 270px;
+    background: #F5F6F8;
+
+    .container {
+        display: flex;
+    }
+
+    &__item-first {
+
+        h2 {
+            width: 502px;
+            line-height: 72px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            width: 740px;
+            color: var(--neutral-black, #0F3141);
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+            opacity: 0.8;
+            margin-bottom: 72px;
+        }
+
+        .contact-btn {
+            border-radius: 8px;
+            background: $top-color;
+            color: #FFF;
+            padding: 16px 32px;
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.18px;
+            margin-right: 32px;
+        }
+
+        .contact-link {
+            color: #000;
+            opacity: 0.7;
+            font-family: Raleway;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.2px;
+            border-bottom: 1px solid #0F3141;
+        }
+    }
+
+    &__item-second {
+        position: relative;
+
+        img {
+            position: absolute;
+            border-right: 20px solid #F5F6F8;
+            border-top: 20px solid #F5F6F8;
+            &:last-child {
+                border: none;
+                left: 322px;
+                bottom: -270px;
+                width: 396px;
+            }
+        }
+    }
+
+}
+
+//  /CONTACT SECTION 
+
+// FOOTER SECTION
+.footer{
+    padding-top: 64px;
+    padding-bottom: 43.5px;
+    background: #0F3141;
+}
+//  /FOOTER SECTION
