@@ -267,9 +267,124 @@ h2 {
 }
 
 .newproduct {
-  padding-top: 141px;
+  padding-top: 180px;
   padding-bottom: 184px;
   background-image: url(../images/product__bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+}
+.newproduct span {
+  color: #F17252;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.newproduct p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.18px;
+  text-transform: capitalize;
+  opacity: 0.5;
+  width: 645px;
+  margin-bottom: 32px;
+}
+.newproduct h6 {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  margin-bottom: 16px;
+}
+.newproduct .circles {
+  margin-bottom: 72px;
+}
+.newproduct .circles svg {
+  margin-right: 10px;
+}
+.newproduct .circles svg:last-child {
+  margin-right: 0;
+}
+.newproduct .newproduct__btn {
+  background-color: #F17252;
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 168px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.newproduct .newproduct__btn button {
+  background-color: transparent;
+  border: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.18px;
+}
+
+.testimonial {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.testimonial h2 {
+  margin-bottom: 67px;
+}
+.testimonial__items {
+  display: flex;
+}
+.testimonial-item {
+  display: flex;
+  margin-right: 48px;
+  border-radius: 16px;
+  background: #FAF8F4;
+  padding: 48px 62px 48px 48px;
+}
+.testimonial-item:last-child {
+  margin-right: 0;
+}
+.testimonial-item img {
+  margin-right: 47px;
+}
+.testimonial-item svg {
+  margin-bottom: 16px;
+}
+.testimonial-item h5 {
+  color: #0F3141;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.72px;
+  width: 395px;
+  margin-bottom: 24px;
+}
+.testimonial-item p {
+  width: 391px;
+  color: #78756E;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+.testimonial-item span {
+  color: #565554;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: -0.36px;
+  opacity: 0.7;
 }/*# sourceMappingURL=main.css.map */
