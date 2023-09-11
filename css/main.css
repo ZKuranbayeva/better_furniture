@@ -443,15 +443,110 @@ h2 {
   border-right: 20px solid #F5F6F8;
   border-top: 20px solid #F5F6F8;
 }
+.contact__item-second img:first-child {
+  z-index: 2;
+  top: 375px;
+}
 .contact__item-second img:last-child {
   border: none;
-  left: 322px;
+  left: 450px;
   bottom: -270px;
   width: 396px;
+}
+.contact__item-second .contact-second-img {
+  left: 265px;
+  top: 146px;
+  z-index: 1;
 }
 
 .footer {
   padding-top: 64px;
   padding-bottom: 43.5px;
   background: #0F3141;
+  color: #FFF;
+}
+.footer__items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 37.5px;
+}
+.footer__items:last-child {
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+.footer__items:last-child a {
+  display: inline-block;
+}
+.footer__items a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+  font-family: Inter;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  color: #FFF;
+}
+.footer__items a:last-child {
+  margin-bottom: 0;
+}
+.footer__item {
+  margin-right: 160px;
+}
+.footer__item:last-child {
+  margin-right: 0;
+}
+.footer__item p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  margin-bottom: 48px;
+}
+.footer__item h5 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+.footer-contact svg {
+  vertical-align: middle;
+  margin-right: 16px;
+}
+.footer-logo {
+  margin-bottom: 16px;
+}
+.footer-menu a {
+  font-size: 14px;
+  color: #75919E;
+}
+.footer hr {
+  margin-bottom: 24px;
+  opacity: 0.7;
+}
+.footer__bottom a {
+  color: #75919E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+}
+.footer__bottom .social a {
+  margin-right: 19px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+.footer__bottom .social a:last-child {
+  margin-right: 0;
+}
+.footer__bottom-center a {
+  margin-bottom: 0;
+  margin-right: 24px;
+}
+.footer__bottom-center a:last-child {
+  margin-right: 0;
 }/*# sourceMappingURL=main.css.map */

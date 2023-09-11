@@ -523,12 +523,24 @@ h2 {
             position: absolute;
             border-right: 20px solid #F5F6F8;
             border-top: 20px solid #F5F6F8;
+
+            &:first-child {
+                z-index: 2;
+                top: 375px;
+            }
+
             &:last-child {
                 border: none;
-                left: 322px;
+                left: 450px;
                 bottom: -270px;
                 width: 396px;
             }
+        }
+
+        .contact-second-img {
+            left: 265px;
+            top: 146px;
+            z-index: 1;
         }
     }
 
@@ -537,9 +549,123 @@ h2 {
 //  /CONTACT SECTION 
 
 // FOOTER SECTION
-.footer{
+.footer {
     padding-top: 64px;
     padding-bottom: 43.5px;
     background: #0F3141;
+    color: #FFF;
+
+    &__items {
+        display: flex;
+        align-items: center;
+        margin-bottom: 37.5px;
+
+        &:last-child {
+            margin-bottom: 0;
+            justify-content: space-between;
+
+            a {
+                display: inline-block;
+            }
+        }
+
+        a {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+            display: block;
+            font-family: Inter;
+            text-transform: capitalize;
+            margin-bottom: 16px;
+            color: #FFF;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__item {
+        margin-right: 160px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        p {
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.36px;
+            margin-bottom: 48px;
+        }
+
+        h5 {
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.2px;
+            text-transform: capitalize;
+            margin-bottom: 24px;
+        }
+    }
+
+    &-contact {
+        svg {
+            vertical-align: middle;
+            margin-right: 16px;
+        }
+    }
+
+    &-logo {
+        margin-bottom: 16px;
+    }
+
+    &-menu {
+        a {
+            font-size: 14px;
+            color:  #75919E;
+        }
+    }
+
+    hr {
+        margin-bottom: 24px;
+        opacity: .7;
+    }
+
+    &__bottom {
+        a {
+            color: #75919E;
+            text-align: center;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+        }
+
+        .social{
+            a{
+                margin-right: 19px;
+                margin-bottom: 0;
+                vertical-align: middle;
+            
+            &:last-child{
+                margin-right: 0;
+            }
+            }
+        }
+
+        &-center{
+            a{
+                margin-bottom: 0;
+                margin-right: 24px;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
 }
+
 //  /FOOTER SECTION
