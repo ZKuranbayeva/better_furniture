@@ -340,6 +340,14 @@ h2 {
 }
 .testimonial h2 {
   margin-bottom: 67px;
+  display: inline-block;
+}
+.testimonial .slider__btn {
+  display: inline-block;
+}
+.testimonial .slider__btn button {
+  border: none;
+  background: transparent;
 }
 .testimonial__items {
   display: flex;

@@ -401,6 +401,16 @@ h2 {
 
     h2 {
         margin-bottom: 67px;
+        display: inline-block;
+    }
+
+    .slider__btn {
+        display: inline-block;
+
+        button {
+            border: none;
+            background: transparent;
+        }
     }
 
     &__items {
@@ -626,7 +636,7 @@ h2 {
     &-menu {
         a {
             font-size: 14px;
-            color:  #75919E;
+            color: #75919E;
         }
     }
 
@@ -644,23 +654,24 @@ h2 {
             font-style: normal;
         }
 
-        .social{
-            a{
+        .social {
+            a {
                 margin-right: 19px;
                 margin-bottom: 0;
                 vertical-align: middle;
-            
-            &:last-child{
-                margin-right: 0;
-            }
+
+                &:last-child {
+                    margin-right: 0;
+                }
             }
         }
 
-        &-center{
-            a{
+        &-center {
+            a {
                 margin-bottom: 0;
                 margin-right: 24px;
-                &:last-child{
+
+                &:last-child {
                     margin-right: 0;
                 }
             }
