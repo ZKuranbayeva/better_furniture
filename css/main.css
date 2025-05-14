@@ -31,7 +31,7 @@ h2 {
 }
 
 .header {
-  background-image: url(../images/mani__bg.jpg);
+  background-image: url(../images/main__bg.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,6 +76,12 @@ h2 {
   background-color: #F17252;
   border-radius: 80px;
   padding: 16px 32px;
+}
+.header__top-btn:hover {
+  color: #F17252;
+  background-color: #fff;
+  border: 1px solid #F17252;
+  transform: all 0.3s;
 }
 .header__body {
   text-align: center;
@@ -323,15 +329,22 @@ h2 {
   cursor: pointer;
   border-radius: 4px;
 }
-.newproduct .newproduct__btn button {
+.newproduct .newproduct__btn span {
   background-color: transparent;
   border: none;
   color: #FFF;
   font-family: Inter;
   font-size: 18px;
   font-weight: 600;
-  line-height: normal;
+  line-height: 1;
   letter-spacing: -0.18px;
+}
+.newproduct .newproduct__btn:hover {
+  background-color: transparent;
+  border: 1px solid #F17252;
+}
+.newproduct .newproduct__btn:hover span {
+  color: #F17252;
 }
 
 .testimonial {
@@ -433,6 +446,12 @@ h2 {
   letter-spacing: -0.18px;
   margin-right: 32px;
 }
+.contact__item-first .contact-btn:hover {
+  background-color: #fff;
+  color: #F17252;
+  border: 1px solid #F17252;
+  transform: all 0.3s;
+}
 .contact__item-first .contact-link {
   color: #000;
   opacity: 0.7;
@@ -442,6 +461,10 @@ h2 {
   line-height: normal;
   letter-spacing: 0.2px;
   border-bottom: 1px solid #0F3141;
+}
+.contact__item-first .contact-link:hover {
+  font-weight: 700;
+  transform: all 0.3s;
 }
 .contact__item-second {
   position: relative;

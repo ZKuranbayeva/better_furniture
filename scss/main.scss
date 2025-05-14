@@ -35,7 +35,7 @@ h2 {
 
 // MAIN SECTION
 .header {
-    background-image: url(../images/mani__bg.jpg);
+    background-image: url(../images/main__bg.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,6 +85,13 @@ h2 {
             background-color: $top-color;
             border-radius: 80px;
             padding: 16px 32px;
+
+            &:hover{
+                color: $top-color;
+                background-color: #fff;
+                border: 1px solid $top-color;
+                transform: all .3s;
+            }
         }
     }
 
@@ -379,15 +386,25 @@ h2 {
         cursor: pointer;
         border-radius: 4px;
 
-        button {
+        span {
             background-color: transparent;
             border: none;
             color: #FFF;
             font-family: Inter;
             font-size: 18px;
             font-weight: 600;
-            line-height: normal;
+            line-height: 1;
             letter-spacing: -0.18px;
+            
+        }
+
+        &:hover {
+        background-color: transparent; 
+        border: 1px solid $top-color;
+
+        span {
+            color: $top-color;
+        }
         }
     }
 }
@@ -512,6 +529,13 @@ h2 {
             line-height: normal;
             letter-spacing: -0.18px;
             margin-right: 32px;
+
+            &:hover {
+                background-color: #fff;
+                color: $top-color;
+                border: 1px solid $top-color;
+                transform: all .3s;
+            }
         }
 
         .contact-link {
@@ -523,6 +547,11 @@ h2 {
             line-height: normal;
             letter-spacing: 0.2px;
             border-bottom: 1px solid #0F3141;
+
+            &:hover{
+                font-weight: 700;
+                transform: all .3s; 
+            }
         }
     }
 
