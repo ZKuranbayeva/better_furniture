@@ -218,6 +218,8 @@ h2 {
     padding-top: 160px;
     padding-bottom: 114px;
 
+    overflow: hidden;
+
     h2 {
         margin-bottom: 72px;
     }
@@ -226,6 +228,8 @@ h2 {
         font-family: Raleway;
         display: flex;
         position: relative;
+        transition: transform 0.5s ease-in-out;
+        width: max-content;
     }
 
     &__item {
@@ -235,6 +239,9 @@ h2 {
         font-weight: 700;
         line-height: 28px;
         letter-spacing: 0.18px;
+
+        flex: 0 0 15%; // 5 ta mahsulot uchun
+        box-sizing: border-box;
 
         &:last-child {
             margin-right: 0;
