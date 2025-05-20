@@ -98,7 +98,7 @@ h2 {
     &__body {
         text-align: center;
 
-        span {
+        &-text{
             color: #0F3141;
             font-family: Inter;
             font-size: 18px;
@@ -120,18 +120,6 @@ h2 {
             margin: 12px auto 41px;
         }
 
-        button {
-            color: #FFF;
-            font-family: Inter;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: normal;
-            letter-spacing: -0.18px;
-            background-color: transparent;
-            border: none;
-            margin-right: 16px;
-            cursor: pointer;
-        }
 
         &-btn {
             display: inline-flex;
@@ -142,6 +130,28 @@ h2 {
             margin: auto;
             border-radius: 4px;
             cursor: pointer;
+
+            span{
+                color: #FFF;
+                font-family: Inter;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: -0.18px;
+                background-color: transparent;
+                border: none;
+                margin-right: 16px;
+                padding-top: 5px;
+            }
+
+            &:hover{
+                background-color: transparent;
+                border: 1px solid $top-color;
+                transform: all .3s;
+                span{
+                    color: $top-color;
+                }
+            }
         }
     }
 }
@@ -402,7 +412,7 @@ h2 {
             font-weight: 600;
             line-height: 1;
             letter-spacing: -0.18px;
-            padding-top: 10px;
+            padding-top: 16px;
             
         }
 
@@ -715,5 +725,14 @@ h2 {
         }
     }
 }
-
 //  /FOOTER SECTION
+
+@media (max-width: 900px) {
+    .header__body h1{
+        width: auto;
+    }
+}
+
+@media (max-width: 600px){
+    
+}

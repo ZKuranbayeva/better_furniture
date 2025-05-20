@@ -86,7 +86,7 @@ h2 {
 .header__body {
   text-align: center;
 }
-.header__body span {
+.header__body-text {
   color: #0F3141;
   font-family: Inter;
   font-size: 18px;
@@ -106,18 +106,6 @@ h2 {
   text-align: center;
   margin: 12px auto 41px;
 }
-.header__body button {
-  color: #FFF;
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.18px;
-  background-color: transparent;
-  border: none;
-  margin-right: 16px;
-  cursor: pointer;
-}
 .header__body-btn {
   display: inline-flex;
   padding: 12px 16px;
@@ -127,6 +115,26 @@ h2 {
   margin: auto;
   border-radius: 4px;
   cursor: pointer;
+}
+.header__body-btn span {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  background-color: transparent;
+  border: none;
+  margin-right: 16px;
+  padding-top: 5px;
+}
+.header__body-btn:hover {
+  background-color: transparent;
+  border: 1px solid #F17252;
+  transform: all 0.3s;
+}
+.header__body-btn:hover span {
+  color: #F17252;
 }
 
 .services {
@@ -344,7 +352,7 @@ h2 {
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.18px;
-  padding-top: 10px;
+  padding-top: 16px;
 }
 .newproduct .newproduct__btn:hover {
   background-color: transparent;
@@ -587,4 +595,10 @@ h2 {
 }
 .footer__bottom-center a:last-child {
   margin-right: 0;
+}
+
+@media (max-width: 900px) {
+  .header__body h1 {
+    width: auto;
+  }
 }/*# sourceMappingURL=main.css.map */
